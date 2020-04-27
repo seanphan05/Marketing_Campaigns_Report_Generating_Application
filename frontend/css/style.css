@@ -1,0 +1,108 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#campaign_table {
+    border-collapse: collapse;
+    width: 120%;
+}
+
+th, td {
+    height: 15px;
+    text-align: right;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.long_name {
+    width: 160px;
+}
+.very_long_name {
+    width: 200px;
+}
+
+.table_head {
+    background-color: lightgrey;
+}
+
+#main_menu {
+    text-align: center;
+}
+
+#before, #after, #fail {
+    color: red;
+    text-align: center;
+}
+
+
+.container {
+    width:100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    margin: 2px;
+    padding: 10px;
+    height: 100px;
+    background: lightgrey;
+    border-style: ridge;
+}
+
+hr {
+    display: block;
+    margin: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.column form {
+    color: #ffffff;
+    padding: 5px;
+}
+.column button {
+    display: inline-block;
+    margin: 2px;
+}
+
+.form_content {
+    display: block;
+    margin: 5px;
+}
+
+.camp_details_form, .year_comp_form {
+    float: left;
+    width: 45%;
+    margin: 20px;
+    /*padding: 10px;*/
+}
+
+#camp_details_result {
+    float: left;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+}
+
+#camp_details_table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+#current_camp_details_table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+#comp_month_table {
+    border-collapse: collapse;
+    width: 350px;
+}
+
