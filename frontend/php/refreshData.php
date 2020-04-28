@@ -1,6 +1,6 @@
 <?php
 ini_set('max_execution_time', 60);
-$command = escapeshellcmd('python "C:\Program Files (x86)\Ampps\www\mc-ga-project\python\ga_mc_to_sql.py"');
+$command = escapeshellcmd('python "path\to\ga_mc_to_sql.py"');
 $output = exec($command, $output);
 if ($output === 'success') { ?>
     <p><strong><?php echo 'Data has been refreshed. Reload your page to get the updated report!'; ?></strong></p>
