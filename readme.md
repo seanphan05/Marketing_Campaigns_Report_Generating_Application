@@ -5,7 +5,16 @@
 
 
 2. Python installation and packages:  
-Install Python and interpreter. All required external libraries include: mailchimp3, httplib2, oauth2client, google-api-python-client, SQLAlchemy
+Python and interpreter: Anaconda  
+Anaconda Environment includes Python, interpreter, and necessary science packages, refer to https://www.anaconda.com/products/individual  
+Python version: this project use Python 3 syntax.  
+All required external libraries include: mailchimp3, httplib2, oauth2client, google-api-python-client, SQLAlchemy.  
+To install libraries run these commands in Command Prompt:  
+pip install mailchimp3  
+pip install httplib2  
+pip install oauth2client  
+pip install SQLAlchemy  
+pip install --upgrade google-api-python-client --ignore-installed six
 
 
 ## Add credentials at config.py
